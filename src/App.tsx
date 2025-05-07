@@ -43,6 +43,7 @@ function App() {
             <p className='txtp'><Link to="/planos">PLANOS</Link></p>
             <p className='txtp'><Link to="/sobre">SOBRE A ACADEMIA</Link></p>
             <p className='txtp'><Link to="/contato">FALE CONOSCO</Link></p>
+            <p className='txtp'></p>
           </div>
         </div>
 
