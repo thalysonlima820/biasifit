@@ -140,11 +140,14 @@ button:hover {
   width: 50%;
 }
 .txtp {
-  width: 100%;
-}
-.txtp a {
-  position: relative;
   display: inline-block;
+  position: relative;
+  margin-left: 10%;
+}
+
+.txtp a {
+  display: inline-block;
+  position: relative;
   font-size: 1.5em;
   color: #fff;
   font-family: "Anton", sans-serif;
@@ -152,22 +155,19 @@ button:hover {
   font-style: normal;
   text-decoration: none;
   padding-bottom: 5px;
-  transition: color 0.3s ease;
 }
 
-/* Listra animada */
 .txtp a::after {
   content: "";
   position: absolute;
-  left: 0;
   bottom: 0;
-  width: 0;
+  left: 0;
   height: 3px;
-  background-color: #feb800; /* cor da listra */
+  width: 0;
+  background-color: #feb800;
   transition: width 0.3s ease;
 }
 
-/* Ao passar o mouse, a listra se expande */
 .txtp a:hover::after {
   width: 100%;
 }
