@@ -1,6 +1,6 @@
-import img1 from './1_amarelo_.png'
-import img2 from './2_amarelo_.png'
-import mulher from './mulher.png'
+import img1 from '../public/1_amarelo_.png'
+import img2 from '../public/2_amarelo_.png'
+import mulher from '../public/mulher.png'
 import './App.css'
 
 function App() {
