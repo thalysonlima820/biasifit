@@ -45,12 +45,12 @@ body {
 
 .faca {
   font-size: 6em;
-  margin-top: 6%;
+  margin-top: 8%;
   margin-left: -7%;
 }
 
 .avaliacao {
-  margin-top: -4.5%;
+  margin-top: -5%;
   font-size: 9em;
   color: transparent;
   -webkit-text-stroke: 2px white;
@@ -62,11 +62,17 @@ body {
   border-radius: 10px;
   font-size: 1.3em;
   background-color: #feb800;
-  margin-left: -16%;
+  margin-left: -20%;
 }
 .btnTxt{
   font-size: 1.5em;
   color: white;
+}
+.logo {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 2em;
 }
 .amarelo1 {
   position: absolute;

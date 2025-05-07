@@ -1,12 +1,15 @@
 import img1 from '../public/1_amarelo_.png'
 import img2 from '../public/2_amarelo_.png'
 import mulher from '../public/mulher.png'
+import logo from '../public/logo.png'
 import './App.css'
 
 function App() {
 
   return (
     <>
+
+      <img className='logo' src={logo} alt="" />
       <img className='amarelo1' src={img1} alt="" />
 
       <div className='textAvalia'>
