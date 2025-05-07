@@ -40,18 +40,18 @@ body {
 }
 
 .textAvalia {
-  margin-left: -70%;
+  margin-left: -60%;
 }
 
 .faca {
-  font-size: 5.5em;
+  font-size: 6em;
   margin-top: 6%;
-  margin-left: -6%;
+  margin-left: -7%;
 }
 
 .avaliacao {
   margin-top: -4.5%;
-  font-size: 8em;
+  font-size: 9em;
   color: transparent;
   -webkit-text-stroke: 2px white;
   text-stroke: 2px white;
@@ -66,6 +66,7 @@ body {
 }
 .btnTxt{
   font-size: 1.5em;
+  color: white;
 }
 .amarelo1 {
   position: absolute;
