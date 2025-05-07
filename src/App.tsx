@@ -13,7 +13,7 @@ function App() {
       </div>
       <img className='amarelo2' src="../public/2_amarelo_.png" alt="" />
 
-      <img className='mulher' src="../public/Imagem_.png" alt="" />
+      <img className='mulher' src="../public/mulher.png" alt="" />
     </>
   )
 }
