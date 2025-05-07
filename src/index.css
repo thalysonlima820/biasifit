@@ -138,16 +138,16 @@ button:hover {
   display: flex;
   margin-left: 20%;
   width: 50%;
+  position: relative;
+  z-index: 999;
+  margin-top: 25px;
 }
 .txtp {
-  display: inline-block;
-  position: relative;
-  margin-left: 10%;
+  width: 100%;
 }
-
 .txtp a {
-  display: inline-block;
   position: relative;
+  display: inline-block;
   font-size: 1.5em;
   color: #fff;
   font-family: "Anton", sans-serif;
@@ -155,15 +155,18 @@ button:hover {
   font-style: normal;
   text-decoration: none;
   padding-bottom: 5px;
+  transition: color 0.3s ease;
 }
+
+
 
 .txtp a::after {
   content: "";
   position: absolute;
-  bottom: 0;
   left: 0;
-  height: 3px;
+  bottom: 0;
   width: 0;
+  height: 3px;
   background-color: #feb800;
   transition: width 0.3s ease;
 }

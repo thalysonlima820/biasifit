@@ -1,8 +1,12 @@
 import React from 'react'
 
+import { Routes, Route, Link, useLocation } from 'react-router-dom';
+
 const Plano = () => {
   return (
-    <div>Plano</div>
+    <Link to="/">
+    <img className='logo' src="/logo.png" alt="Logo" />
+  </Link>
   )
 }
 

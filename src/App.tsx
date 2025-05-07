@@ -1,7 +1,6 @@
 import img1 from '../public/1_amarelo_.png';
 import img2 from '../public/2_amarelo_.png';
 import mulher from '../public/mulher.png';
-import logo from '../public/logo.png';
 import './App.css';
 import { useEffect, useRef, useState } from 'react';
 import { Routes, Route, Link, useLocation } from 'react-router-dom';
@@ -37,7 +36,9 @@ function App() {
     return (
       <>
         <div>
-          <img className='logo' src={logo} alt="" />
+          <Link to="/">
+            <img className='logo' src="/logo.png" alt="Logo" />
+          </Link>
 
           <div className='options'>
             <p className='txtp'><Link to="/planos">PLANOS</Link></p>
