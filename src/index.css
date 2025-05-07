@@ -70,9 +70,10 @@ body {
 }
 .logo {
   position: absolute;
-  left: 0;
-  top: 0;
-  font-size: 2em;
+  left: 5%;
+  top: 5%;
+  width: 9%;
+  height: 10%;
 }
 .amarelo1 {
   position: absolute;
@@ -104,4 +105,36 @@ button {
 
 button:hover {
   background-color: #e3ae28;
+}
+
+/* Animações */
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Classes que serão adicionadas dinamicamente */
+.slide-left {
+  animation: slideInLeft 2s ease-out forwards;
+}
+
+.slide-right {
+  animation: slideInRight 2s ease-out forwards;
 }
