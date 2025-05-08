@@ -58,6 +58,8 @@ body {
   font-size: 1.3em;
   background-color: #feb800;
   margin-left: -20%;
+  position: relative;
+  z-index: 999;
 }
 .btnTxt{
   font-size: 1.5em;
@@ -79,6 +81,7 @@ body {
   position: absolute;
   left: 0;
   bottom: 0;
+  z-index: 800;
 }
 .mulher{
   position: absolute;
@@ -157,8 +160,6 @@ button:hover {
   padding-bottom: 5px;
   transition: color 0.3s ease;
 }
-
-
 
 .txtp a::after {
   content: "";

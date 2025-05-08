@@ -2,6 +2,7 @@ import img1 from '../public/1_amarelo_.png';
 import img2 from '../public/2_amarelo_.png';
 import mulher from '../public/mulher.png';
 import './App.css';
+import '../public/css/planos.css';
 import { useEffect, useRef, useState } from 'react';
 import { Routes, Route, Link, useLocation } from 'react-router-dom';
 import Plano from './page/Plano';
