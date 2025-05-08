@@ -34,9 +34,9 @@ const Plano = () => {
           <button className='btnContratar'>CONTRATAR AGORA</button>
         </div>
       </div>
-
     </>
   )
 }
+
 
 export default Plano
