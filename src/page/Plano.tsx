@@ -18,7 +18,9 @@ const Plano = () => {
           <button className='btnContratar'>CONTRATAR AGORA</button>
 
           <h4 className='textmensalidade'>R$ 779,99 em até 6x</h4>
+          <h3 className='textDuracao'>Duração de 6 meses</h3>
         </div>
+        
         <div className='box'>
           <h1 className='texth1'>TRIMESTRAL</h1>
           <h1 className='textValor'><span>R$ 166</span>,67</h1>
@@ -26,13 +28,19 @@ const Plano = () => {
 
           <button className='btnContratar'>CONTRATAR AGORA</button>
           <h4 className='textmensalidade'>R$ 500,00 em até 3x</h4>
+          <h3  className='textDuracao'>Duração de 3 meses</h3>
         </div>
+        
         <div className='box'>
           <h1 className='texth1'>DIÁRIA</h1>
           <h1 className='textValor'><span>R$ 25</span>,00</h1>
+          <p className='textmes'>por dia</p>
 
           <button className='btnContratar'>CONTRATAR AGORA</button>
+          <h4  className='textmensalidade'>R$ 25 por dia</h4>
+          <h3  className='textDuracao'>Duração de 1 dia</h3>
         </div>
+        
       </div>
     </>
   )

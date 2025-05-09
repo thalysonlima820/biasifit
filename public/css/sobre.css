@@ -1,0 +1,51 @@
+.sobre {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 40px 20px;
+  background: url('/academia-bg.jpg') center center no-repeat;
+  background-size: cover;
+}
+.boxSobre {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  position: relative;
+}
+.boxIcone {
+  background-color: black;
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  z-index: 900;
+}
+.boxIcone img {
+  width: 60%;
+  height:  60%;
+  filter: brightness(0) invert(1);
+}
+
+.boxTexto {
+  background-color: #feb800;
+  border-radius: 20px;
+  padding: 20px 30px;
+  flex: 1;
+  margin-left: -5%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+.boxTexto h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.boxTexto p {
+  margin: 0;
+  font-size: 1em;
+  line-height: 1.5;
+}
