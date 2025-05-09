@@ -3,13 +3,17 @@ import img2 from '../../public/2_amarelo_.png';
 import braco from '../../public/braco.png';
 import maca from '../../public/maca.png';
 import peso from '../../public/peso.png';
-
+import { Link } from 'react-router-dom';
 
 export const Sobre = () => {
     return (
         <>
+              <Link to="/">
+        <img className='logo' src="/logo.png" alt="Logo" />
+      </Link>
             <img className='amarelo1' src={img1} alt="" />
 
+                <h1 className='title'>SOBRE A ACADEMIA</h1>
             <div className="sobre">
                 <div className="boxSobre">
                     <div className="boxIcone">

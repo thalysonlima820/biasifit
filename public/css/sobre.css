@@ -5,6 +5,7 @@
   padding: 40px 20px;
   background: url('/academia-bg.jpg') center center no-repeat;
   background-size: cover;
+  margin-top: -7%;
 }
 .boxSobre {
   display: flex;
@@ -14,8 +15,8 @@
 }
 .boxIcone {
   background-color: black;
-  width: 150px;
-  height: 150px;
+  width: 170px;
+  height: 170px;
   border-radius: 20px;
   display: flex;
   align-items: center;
@@ -25,8 +26,8 @@
   z-index: 900;
 }
 .boxIcone img {
-  width: 60%;
-  height:  60%;
+  width: 100%;
+  height: 100%;
   filter: brightness(0) invert(1);
 }
 
@@ -35,17 +36,53 @@
   border-radius: 20px;
   padding: 20px 30px;
   flex: 1;
-  margin-left: -5%;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  margin-left: -5%;
+  display: flex;
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: flex-start;
 }
+
 .boxTexto h2 {
   margin-top: 0;
   margin-bottom: 10px;
   font-size: 1.5em;
   font-weight: bold;
+  margin-left: 3%;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
 }
 .boxTexto p {
   margin: 0;
-  font-size: 1em;
+  font-size: 1.2em;
   line-height: 1.5;
+  margin-left: 3%;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  text-align: left;
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.boxSobre {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  position: relative;
+  opacity: 0;
+  animation: slideInRight 0.8s ease-out forwards;
 }
