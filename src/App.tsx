@@ -84,7 +84,8 @@ function App() {
   return (
     <Routes>
       <Route path="/planos" element={<Plano />} />
-      <Route path="/sobre" element={<Sobre />} />
+
+      <Route path="/sobre" element={<Sobre/>} />
     </Routes>
   );
 }
