@@ -45,7 +45,7 @@ function App() {
           <div className='options'>
             <p className='txtp'><Link to="/planos">PLANOS</Link></p>
             <p className='txtp'><Link to="/sobre">SOBRE A ACADEMIA</Link></p>
-            <p className='txtp'><Link to="/contato">FALE CONOSCO</Link></p>
+            <p className='txtp'> <a href="https://wa.me/5591980473620?text=Olá,%20quero%20mais%20informações%20sobre%20a%20academia!">FALE CONOSCO</a></p>
           </div>
         </div>
 
@@ -57,9 +57,17 @@ function App() {
         >
           <h1 className='faca'>FAÇA A SUA</h1>
           <h1 className='avaliacao'>AVALIAÇÃO</h1>
-          <button className='btn'>
-            <span className='btnTxt'>CLIQUE AQUI</span>
-          </button>
+          <a
+          className='btna'
+            href="https://wa.me/5591980473620?text=Olá,%20gostaria%20de%20marcar%20minha%20avaliação!"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="btn">
+              <span className="btnTxt">CLIQUE AQUI</span>
+            </button>
+          </a>
+
         </div>
 
         <img className='amarelo2' src={img2} alt="" />
@@ -76,7 +84,7 @@ function App() {
   return (
     <Routes>
       <Route path="/planos" element={<Plano />} />
-      <Route path="/sobre" element={<Sobre/>} />
+      <Route path="/sobre" element={<Sobre />} />
     </Routes>
   );
 }

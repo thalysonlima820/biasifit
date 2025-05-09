@@ -175,3 +175,8 @@ button:hover {
 .txtp a:hover::after {
   width: 100%;
 }
+.btna{
+  position: fixed;
+  z-index: 999;
+  margin-left: -13%;
+}
