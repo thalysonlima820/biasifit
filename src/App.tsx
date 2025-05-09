@@ -3,16 +3,18 @@ import img2 from '../public/2_amarelo_.png';
 import mulher from '../public/mulher.png';
 import './App.css';
 import '../public/css/planos.css';
+import '../public/css/sobre.css';
 import { useEffect, useRef, useState } from 'react';
 import { Routes, Route, Link, useLocation } from 'react-router-dom';
 import Plano from './page/Plano';
+import { Sobre } from './page/Sobre';
 
 function App() {
   const mulherRef = useRef<HTMLImageElement>(null);
   const textoRef = useRef<HTMLDivElement>(null);
   const [showAnimation, setShowAnimation] = useState(false);
 
-  const location = useLocation(); // 👈 Para saber a rota atual
+  const location = useLocation();
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -32,7 +34,6 @@ function App() {
     return () => observer.disconnect();
   }, []);
 
-  // 👇 Só renderiza a página inicial se estiver na rota "/"
   if (location.pathname === '/') {
     return (
       <>
@@ -72,11 +73,10 @@ function App() {
     );
   }
 
-  // 👇 Se não for "/", renderiza apenas as rotas
   return (
     <Routes>
       <Route path="/planos" element={<Plano />} />
-      {/* Adicione outras rotas se quiser */}
+      <Route path="/sobre" element={<Sobre/>} />
     </Routes>
   );
 }
