@@ -1,88 +1,62 @@
 .sobre {
   display: flex;
   flex-direction: column;
-  gap: 40px;
-  padding: 40px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
   background: url('/academia-bg.jpg') center center no-repeat;
   background-size: cover;
-  margin-top: -7%;
+  overflow: hidden;
+  z-index: 999;
+  position: relative;
 }
+
 .boxSobre {
   display: flex;
   align-items: center;
-  gap: 30px;
-  position: relative;
+  gap: 20px;
+  width: 100%;
+  max-width: 1000px;
+  animation: slideInRight 1s ease-out forwards;
 }
+
 .boxIcone {
   background-color: black;
-  width: 170px;
-  height: 170px;
+  width: 130px;
+  height: 130px;
   border-radius: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
+  z-index: 99;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
-  z-index: 900;
 }
+
 .boxIcone img {
-  width: 100%;
-  height: 100%;
+  width: 60%;
+  height: 60%;
   filter: brightness(0) invert(1);
 }
 
 .boxTexto {
   background-color: #feb800;
   border-radius: 20px;
-  padding: 20px 30px;
+  padding: 10px 20px;
   flex: 1;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-  margin-left: -5%;
   display: flex;
-  flex-direction: column; 
-  justify-content: flex-start; 
+  flex-direction: column;
+  justify-content: center;
   align-items: flex-start;
+  margin-left: -4%;
 }
 
-.boxTexto h2 {
-  margin-top: 0;
-  margin-bottom: 10px;
-  font-size: 1.5em;
-  font-weight: bold;
-  margin-left: 3%;
-  font-family: "Anton", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: black;
-}
+.boxTexto h2,
 .boxTexto p {
   margin: 0;
-  font-size: 1.2em;
-  line-height: 1.5;
-  margin-left: 3%;
+  font-size: 1em;
   font-family: "Anton", sans-serif;
-  font-weight: 400;
-  font-style: normal;
   color: black;
-  text-align: left;
-}
-
-@keyframes slideInRight {
-  from {
-    opacity: 0;
-    transform: translateX(100px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-.boxSobre {
-  display: flex;
-  align-items: center;
-  gap: 30px;
-  position: relative;
-  opacity: 0;
-  animation: slideInRight 0.8s ease-out forwards;
+  margin-left: 1%;
 }
