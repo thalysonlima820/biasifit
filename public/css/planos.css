@@ -3,6 +3,8 @@
     font-size: 5em;
     color: #feb800;
     margin: 0;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 .boxMaster {
     display: flex;
