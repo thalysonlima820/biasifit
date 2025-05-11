@@ -11,14 +11,14 @@
   align-items: center;
   gap: 20px;
   width: 100%;
-  max-width: 1000px;
+  height: 25vh;
   animation: slideInRight 1s ease-out forwards;
 }
 
 .boxIcone {
   background-color: black;
-  width: 150px;
-  height: 150px;
+  width: 15%;
+  height: 100%;
   border-radius: 20px;
   display: flex;
   align-items: center;
@@ -45,12 +45,13 @@
   justify-content: center;
   align-items: flex-start;
   margin-left: -4%;
+  height: 17vh;
 }
 
 .boxTexto h2,
 .boxTexto p {
   margin: 0;
-  font-size: 1.3em;
+  font-size: 1.5em;
   font-family: "Anton", sans-serif;
   color: black;
   margin-left: 1%;
