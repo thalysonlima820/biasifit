@@ -1,14 +1,9 @@
 .sobre {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  gap: 20px;
-  background: url('/academia-bg.jpg') center center no-repeat;
-  background-size: cover;
-  overflow: hidden;
   z-index: 999;
-  position: relative;
+  gap: 10px;
 }
 
 .boxSobre {
@@ -22,8 +17,8 @@
 
 .boxIcone {
   background-color: black;
-  width: 130px;
-  height: 130px;
+  width: 150px;
+  height: 150px;
   border-radius: 20px;
   display: flex;
   align-items: center;
@@ -42,7 +37,7 @@
 .boxTexto {
   background-color: #feb800;
   border-radius: 20px;
-  padding: 10px 20px;
+  padding: 10px 30px;
   flex: 1;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   display: flex;
@@ -55,7 +50,7 @@
 .boxTexto h2,
 .boxTexto p {
   margin: 0;
-  font-size: 1em;
+  font-size: 1.3em;
   font-family: "Anton", sans-serif;
   color: black;
   margin-left: 1%;
