@@ -29,8 +29,8 @@
 }
 
 .boxIcone img {
-  width: 60%;
-  height: 60%;
+  width: 80%;
+  height: 80%;
   filter: brightness(0) invert(1);
 }
 
@@ -55,4 +55,5 @@
   font-family: "Anton", sans-serif;
   color: black;
   margin-left: 1%;
+  text-align: start;
 }
