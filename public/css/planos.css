@@ -56,6 +56,9 @@
     margin-top: 10%;
     color: #fff;
 }
+.btnContratarMelhor{
+    margin-top: 5%;
+}
 
 .textmensalidade {
     color: #000;
@@ -67,7 +70,7 @@
 }
 
 .textDuracao {
-    margin-top: 28%;
+    margin-top: 32%;
 }
 
 .boxVanta {
@@ -81,23 +84,30 @@
     margin-top: -10%;
 }
 
-.boxVanta::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 2px solid black;
-    transform: translate(7px, 7px);
-    z-index: -1;
-    background: transparent;
-}
-
 .textVantajoso {
     margin-top: -6%;
     padding: 10px, 20px;
     font-family: "Anton", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+.boxMelhor {
+    position: relative;
+    z-index: 1;
+}
+
+.boxMelhor::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 104%;
+    height: 104%;
+    margin-left: -2.5%;
+    margin-top: -2.5%;
+    border: 2px solid black;
+    z-index: -1;
+    background: transparent;
+    border-radius: 50px;
 }

@@ -24,7 +24,7 @@ const Plano = () => {
           <h3 className='textDuracao'>Duração de 3 meses</h3>
         </div>
 
-        <div className='box'>
+        <div className='box boxMelhor'>
           <div className='boxVanta'>
             <h1 className='textVantajoso'>MAIS VANTAJOSO</h1>
           </div>
@@ -33,7 +33,7 @@ const Plano = () => {
           <p className='textmes'>por mês</p>
 
           <a href="https://evo-totem.w12app.com.br/biasifit/1/site/QhXXzoY7OMy%5BPLUS%5DFpULG15Wrw%5BEQUAL%5D%5BEQUAL%5D" target="_blank" rel="noopener noreferrer">
-            <button className='btnContratar'>CONTRATAR AGORA</button>
+            <button className='btnContratar btnContratarMelhor'>CONTRATAR AGORA</button>
           </a>
 
           <h4 className='textmensalidade'>R$ 779,99 em até 6x</h4>
