@@ -1,6 +1,7 @@
 import img1 from '../public/1_amarelo_.png';
 import img2 from '../public/2_amarelo_.png';
 import mulher from '../public/mulher.png';
+import logo from '../public/logo.png';
 import './App.css';
 import '../public/css/planos.css';
 import '../public/css/sobre.css';
@@ -89,7 +90,7 @@ function App() {
 
         <div className='nav'>
           <div className='logoPhone'>
-            <img src="../public/logo.png" alt="" />
+            <img src={logo} alt="" />
           </div>
           <div >
             <button className='FaleConoscoPhone'> <a href="https://wa.me/5591980473620?text=Olá,%20quero%20mais%20informações%20sobre%20a%20academia!"> Fale Conosco</a></button>
