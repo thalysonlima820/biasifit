@@ -96,6 +96,5 @@ export const Sobre = () => {
                 <br /><br /><br />
             </div>
         </>
-
     );
 };
