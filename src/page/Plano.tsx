@@ -103,7 +103,7 @@ const Plano = () => {
               <div className='PlanoInforPhone'>
                 <h3>
                   <span className='PlanoPhone'>Plano</span> <br />
-                  <span className='Semestrasl'>Semestrasl</span>
+                  <span className='Semestrasl'>Semestral</span>
                 </h3>
                 <p>Treine em nossa academia <br /> por apenas.</p>
               </div>
