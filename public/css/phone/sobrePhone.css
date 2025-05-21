@@ -1,0 +1,48 @@
+@media (max-width: 768px) {
+    .sobrephone {
+        text-align: center;
+        position: relative;
+    }
+
+    .classSobreFone {
+        display: inline-block;
+        text-align: center;
+        background-color: #feb800;
+        width: 90%;
+        height: 20vh;
+        border-radius: 20px;
+        position: relative;
+    }
+
+    .TitleSobrePhone {
+        position: absolute;
+        background-color: #000;
+        border-radius: 20px;
+        font-size: 1.2em;
+        top: -5%;
+        left: -2%;
+        padding: 5px 40px;
+    }
+
+    .classSobreFone p {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 0.9em;
+        color: #000;
+        text-align: center;
+        width: 90%;
+        padding: 0 10px;
+        text-align: start;
+    }
+    .SigaPhone{
+        color: #000;
+        margin-bottom: 0%;
+    }
+    .SigaPhone a{
+        color: #000;
+    }
+
+
+}

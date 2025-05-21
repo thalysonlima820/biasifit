@@ -1,0 +1,205 @@
+.phone {
+    display: none;
+}
+
+
+@media (max-width: 768px) {
+    #root {
+        margin: 0;
+        padding: 0;
+    }
+
+    .pc {
+        display: none;
+    }
+
+    .phone {
+        display: block;
+        position: relative;
+        width: 100%;
+    }
+
+    body {
+        background-image: none !important;
+        background-color: #fff !important;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #fff;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        border-bottom: 1px solid #ccc;
+        box-shadow: 0 10px 10px rgba(12, 12, 12, 0.1);
+        height: 12vh;
+    }
+
+    .logoPhone img {
+        width: 100px;
+        height: 50px;
+        margin-left: 20%;
+    }
+
+    .FaleConoscoPhone {
+        background-color: #000;
+        border-radius: 20px;
+        color: #fff;
+        padding: 3px 30px;
+        margin-left: -10%;
+    }
+
+    .FaleConoscoPhone a {
+        color: #fff;
+    }
+
+    .avaliacaoPhone {
+        background-image: url('../../imgPhone1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 90%;
+        height: 20vh;
+        margin-left: 5%;
+        margin-top: 5%;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .avaliacaoPhone span {
+        color: transparent;
+        -webkit-text-stroke: 2px white;
+        text-stroke: 2px white;
+        font-size: 1.5em;
+    }
+    .avaliacaoPhone a{
+        color: #fff;
+    }
+
+    .btnClickPhone {
+        background-color: #feb800;
+        color: #000;
+        border-radius: 10px;
+        padding: 1px 20px;
+    }
+
+    .MelhorOfertaphone {
+        background-image: url('../../imgPhone2.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 90%;
+        height: 60vh;
+        margin-left: 5%;
+        margin-top: 7%;
+        border-radius: 30px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .TitleMelhorOfertaPhone {
+        background-color: #feb800;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+
+    .TitleMelhorOfertaPhone h2 {
+        color: #000;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .PrecoPhone {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        width: 100%;
+    }
+
+    .divValorPhone {
+        margin: 0 auto;
+        padding: 0;
+        position: relative;
+        width: fit-content;
+        margin-bottom: -15%;
+        text-align: center;
+        margin-left: 10%;
+    }
+
+    .rs {
+        font-size: 1em;
+        color: #feb800;
+    }
+
+    .valorPhone {
+        font-size: 5em;
+        color: #feb800;
+    }
+
+    .CantoPhone {
+        position: absolute;
+        top: 0.5em;
+        right: -2.5em;
+        font-size: 1em;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .CentavosPhone {
+        color: #feb800;
+        margin-top: 50%;
+    }
+
+    .PorMesPhone {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        line-height: 1;
+        margin-top: -70%;
+    }
+
+    .PorText {
+        font-size: 1.3em;
+        margin: 0;
+        padding: 0;
+    }
+
+    .Mesphone {
+        font-size: 1.3em;
+        margin-top: 7px;
+    }
+
+    .ParcelaPhone {
+        margin: 0 auto;
+        padding: 0;
+        margin-bottom: -5%;
+        text-align: center;
+    }
+
+    .InforPhone {
+        margin: 0 auto;
+        padding: 0;
+        font-size: 0.5em;
+        width: 90%;
+        text-align: center;
+    }
+
+
+
+}

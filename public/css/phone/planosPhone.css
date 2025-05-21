@@ -1,0 +1,148 @@
+@media (max-width: 768px) {
+    .TitleLocalizacao {
+        font-size: 1.5em;
+        color: #000;
+    }
+
+    .LocalizadosPhone {
+        color: #feb800;
+        margin-top: -12%;
+    }
+
+    .imgLocalizacao {
+        background-image: url('../../academia.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 90%;
+        height: 20vh;
+        margin-left: 5%;
+        margin-top: 5%;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .imagem3{
+        background-image: url('../../iamgem3.jpg');
+    }
+
+    .TitlePhone {
+        color: #000;
+    }
+
+    .amarelo {
+        color: #feb800;
+    }
+
+    .PlanosPhone {
+        text-align: center;
+        position: relative;
+    }
+
+    .MelhorPlanoPhone {
+        display: inline-block;
+        text-align: center;
+        background-color: #000;
+        width: 70%;
+        border-radius: 40px;
+    }
+    .PlanoPhoneOfertas {
+        display: inline-block;
+        text-align: center;
+        border: 2px solid #000;
+        width: 70%;
+        border-radius: 40px;
+        box-shadow: 0 10px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .TitlePlanoMelhorPhone {
+        background-color: #feb800;
+        width: 80%;
+        margin-left: 10%;
+        color: #000;
+        font-size: 0.8em;
+        border-radius: 20px;
+        margin-top: -10%;
+    }
+
+    .TitlePlanoMelhorPhone span {
+        font-weight: bold;
+    }
+
+    .PlanoInforPhone {
+        margin-left: 10%;
+        text-align: left;
+        font-size: 1.5em;
+    }
+    .normalPlanoFone{
+        color: #000;
+    }
+
+    .PlanoPhone {
+        font-weight: 300;
+    }
+
+    .Semestrasl {
+        font-weight: 900;
+        font-weight: bold;
+    }
+
+    .PlanoInforPhone p {
+        margin: 0;
+        margin-top: -10%;
+        font-size: 0.5em;
+    }
+
+    .ValorPlanoPhone h1 {
+        margin: 0;
+        color: #feb800;
+        font-size: 7em;
+        margin-top: -10%;
+    }
+
+    .ValorPlanoPhone h1 span {
+        font-size: 0.2em;
+    }
+
+    .ValorPlanoNormalPhone h3 {
+        color: #000;
+    }
+    .ValorPlanoPhone h3 {
+        margin: 0;
+        margin-top: -10%;
+    }
+
+    .CentavosPhonePlano {
+        position: absolute;
+        margin-top: 8%;
+    }
+
+    .btnContratarPhone {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        background-color: #feb800;
+        border-radius: 10px;
+    }
+    .btnContratarPhone a{
+        color: #000;
+    }
+
+    .SobrePlanoPhone {
+        font-size: 0.5em;
+    }
+
+    .btnPlanoNormal{
+        background-color: #000;
+         box-shadow: 0 10px 5px rgba(0, 0, 0, 0.1);
+    }
+    .btnPlanoNormal a{
+         color: #fff;
+    }
+    .sobrePlanoNormalPhone{
+        color: #000;
+    }
+
+}
