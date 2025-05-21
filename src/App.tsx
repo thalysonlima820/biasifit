@@ -99,39 +99,42 @@ function App() {
 
         <div className='avaliacaoPhone'>
           <h1>FAÇA A SUA <span>AVALIAÇÃO</span></h1>
-          <button className='btnClickPhone'> <a  href="https://wa.me/5591980473620?text=Olá,%20gostaria%20de%20marcar%20minha%20avaliação!">CLIQUE AQUI</a> </button>
+          <button className='btnClickPhone'> <a href="https://wa.me/5591980473620?text=Olá,%20gostaria%20de%20marcar%20minha%20avaliação!">CLIQUE AQUI</a> </button>
         </div>
 
-        <div className='MelhorOfertaphone'>
-          <div className='TitleMelhorOfertaPhone'>
-            <h2>MATRICULE-SE <br /> HOJE</h2>
-          </div>
+        <a className='MelhorOfertaphoneA'href="https://evo-totem.w12app.com.br/biasifit/1/site/QhXXzoY7OMy%5BPLUS%5DFpULG15Wrw%5BEQUAL%5D%5BEQUAL%5D">
+          <div className='MelhorOfertaphone'>
+            <div className='TitleMelhorOfertaPhone'>
+              <h2>MATRICULE-SE <br /> HOJE</h2>
+            </div>
 
-          <div className='PrecoPhone'>
+            <div className='PrecoPhone'>
 
-            <div className='divValorPhone'>
-              <h1>
-                <span className='rs'>R$</span>
-                <span className='valorPhone'>130</span>
-                <span className='CantoPhone'>
-                  <span className='CentavosPhone'>,00</span> <br />
-                  <span className='PorMesPhone'>
-                    <span className='PorText'>POR</span>
-                    <span className='Mesphone'>MÊS</span>
+              <div className='divValorPhone'>
+                <h1>
+                  <span className='rs'>R$</span>
+                  <span className='valorPhone'>130</span>
+                  <span className='CantoPhone'>
+                    <span className='CentavosPhone'>,00</span> <br />
+                    <span className='PorMesPhone'>
+                      <span className='PorText'>POR</span>
+                      <span className='Mesphone'>MÊS</span>
+                    </span>
                   </span>
-                </span>
-              </h1>
-            </div>
-            <div className='ParcelaPhone'>
-              <h1>R$ 779,99 EM ATÉ 6X</h1>
-            </div>
-            <div className='InforPhone'>
-              <p>Mensalidade válida com duração de 6 meses. Consulte e tire suas dúvidas em nosso WhatsApp na opção <span>Fale Conosco</span></p>
+                </h1>
+              </div>
+              <div className='ParcelaPhone'>
+                <h1>R$ 779,99 EM ATÉ 6X</h1>
+              </div>
+              <div className='InforPhone'>
+                <p>Mensalidade válida com duração de 6 meses. Consulte e tire suas dúvidas em nosso WhatsApp na opção <span>Fale Conosco</span></p>
+              </div>
+
             </div>
 
           </div>
+        </a>
 
-        </div>
 
         <br /><br />
         <div id="planos"><Plano /></div>

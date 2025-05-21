@@ -9,6 +9,9 @@ import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 
 export const Sobre = () => {
+
+
+
     return (
         <>
             <div className='pc'>

@@ -87,13 +87,14 @@
         color: #000;
         border-radius: 10px;
         padding: 1px 20px;
+        margin-top: -5%;
     }
 
     .MelhorOfertaphone {
         background-image: url('../../imgPhone2.jpg');
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center;
+        background-position: 90% center;
         width: 90%;
         height: 60vh;
         margin-left: 5%;
@@ -103,6 +104,9 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .MelhorOfertaphoneA{
+        color: #fff;
     }
 
     .TitleMelhorOfertaPhone {
