@@ -7,6 +7,7 @@ const Plano = () => {
 
   return (
     <>
+
       <div className='pc'>
         <Link to="/">
           <img className='logo' src="/logo.png" alt="Logo" />
@@ -28,54 +29,36 @@ const Plano = () => {
             <h4 className='textmensalidade'>R$ 500,00 em até 3x</h4>
             <h3 className='textDuracao'>Duração de 3 meses</h3>
           </div>
-
           <div className='box boxMelhor'>
-            <div className='boxVanta'>
-              <h1 className='textVantajoso'>MAIS VANTAJOSO</h1>
-
-              <a href="https://evo-totem.w12app.com.br/biasifit/1/site/QhXXzoY7OMy%5BPLUS%5DFpULG15Wrw%5BEQUAL%5D%5BEQUAL%5D" target="_blank" rel="noopener noreferrer">
-                <button className='btnContratar'>CONTRATAR AGORA</button>
-              </a>
-              <h4 className='textmensalidade'>R$ 500,00 em até 3x</h4>
-              <h3 className='textDuracao'>Duração de 3 meses</h3>
+            <div className="boxVanta">
+              <h2 className='textVantajoso'>Plano mais Vantajoso</h2>
             </div>
+            <h1 className='texth1'>SEMESTRAL</h1>
+            <h1 className='textValor'><span>R$ 130</span>,00</h1>
+            <p className='textmes'>por mês</p>
 
 
             <a href="https://evo-totem.w12app.com.br/biasifit/1/site/QhXXzoY7OMy%5BPLUS%5DFpULG15Wrw%5BEQUAL%5D%5BEQUAL%5D" target="_blank" rel="noopener noreferrer">
-              <button className='btnContratar btnContratarMelhor'>CONTRATAR AGORA</button>
+              <button className='btnContratar'>CONTRATAR AGORA</button>
             </a>
-
-            <div className='box boxMelhor'>
-              <div className='boxVanta'>
-                <h1 className='textVantajoso'>MAIS VANTAJOSO</h1>
-              </div>
-              <h1 className='texth1'>SEMESTRAL</h1>
-              <h1 className='textValor'><span>R$ 130</span>,00</h1>
-              <p className='textmes'>por mês</p>
-
-              <a href="https://evo-totem.w12app.com.br/biasifit/1/site/QhXXzoY7OMy%5BPLUS%5DFpULG15Wrw%5BEQUAL%5D%5BEQUAL%5D" target="_blank" rel="noopener noreferrer">
-                <button className='btnContratar'>CONTRATAR AGORA</button>
-              </a>
-
-              <h4 className='textmensalidade'>R$ 779,99 em até 6x</h4>
-              <h3 className='textDuracao'>Duração de 6 meses</h3>
-
-            </div>
-
-            <div className='box'>
-              <h1 className='texth1'>DIÁRIA</h1>
-              <h1 className='textValor'><span>R$ 25</span>,00</h1>
-              <p className='textmes'>por dia</p>
-
-              <a href="https://evo-totem.w12app.com.br/biasifit/1/site/QhXXzoY7OMy%5BPLUS%5DFpULG15Wrw%5BEQUAL%5D%5BEQUAL%5D" target="_blank" rel="noopener noreferrer">
-                <button className='btnContratar'>CONTRATAR AGORA</button>
-              </a>
-              <h4 className='textmensalidade'>R$ 25 por dia</h4>
-              <h3 className='textDuracao'>Duração de 1 dia</h3>
-            </div>
-
+            <h4 className='textmensalidade'>R$ 779,99 em até 6x</h4>
+            <h3 style={{marginTop: '13%'}} className='textDuracao'>Duração de 6 meses</h3>
           </div>
+          <div className='box'>
+            <h1 className='texth1'>DIÁRIA</h1>
+            <h1 className='textValor'><span>R$ 25</span>,00</h1>
+            <p className='textmes'>por dia</p>
+
+
+            <a href="https://evo-totem.w12app.com.br/biasifit/1/site/QhXXzoY7OMy%5BPLUS%5DFpULG15Wrw%5BEQUAL%5D%5BEQUAL%5D" target="_blank" rel="noopener noreferrer">
+              <button className='btnContratar'>CONTRATAR AGORA</button>
+            </a>
+            <h4 className='textmensalidade'>R$ 25,00 por dia </h4>
+            <h3 className='textDuracao'>Duração de 1 dia</h3>
+          </div>
+
         </div>
+        
       </div>
       <div className='phone'>
         <div className='TitleLocalizacao'>
