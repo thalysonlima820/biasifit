@@ -5,9 +5,11 @@
         color: #000;
     }
 
-    .LocalizadosPhone {
-        color: #feb800;
+    .LocalizadosPhone{
         margin-top: -12%;
+    }
+    .LocalizadosPhone a{
+        color: #feb800;
     }
 
     .imgLocalizacao {

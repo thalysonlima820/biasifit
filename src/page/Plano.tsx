@@ -63,7 +63,7 @@ const Plano = () => {
       <div className='phone'>
         <div className='TitleLocalizacao'>
           <h1>Onde estamos</h1>
-          <h1 className='LocalizadosPhone'>localizados!</h1>
+          <h1 className='LocalizadosPhone'> <a href="https://www.google.com/maps/place/Academia+Biasifit/@-2.9827751,-47.3569127,17z/data=!3m1!4b1!4m6!3m5!1s0x92b75dec6b8a0853:0x2723e2bc38ea9fc3!8m2!3d-2.9827751!4d-47.3543378!16s%2Fg%2F11j2y1f2sy?entry=ttu">localizados!</a> </h1>
         </div>
 
         <h1 className='seta'><FontAwesomeIcon icon={faArrowDown} /></h1>
