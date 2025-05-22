@@ -95,7 +95,7 @@ export const Sobre = () => {
                     </div>
                 </div>
 
-                <h4 className='SigaPhone'>Siga o nosso  instagram <FontAwesomeIcon icon={faInstagram} /><a href="https://www.instagram.com/biasifitacademia/">@biasifitacademia</a></h4>
+                <h4 className='SigaPhone'>Siga o nosso  instagram <FontAwesomeIcon icon={faInstagram} /> <a href="https://www.instagram.com/biasifitacademia/">@biasifitacademia</a></h4>
                 <br /><br /><br />
             </div>
         </>
